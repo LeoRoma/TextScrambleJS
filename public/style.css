@@ -1,12 +1,26 @@
-body{
-    background-color: black;
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+html, body{
+    font-family: 'Roboto Mono', monospace;
+    background: #212121;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .text{
-    margin: auto;
-    position: relative;
-    margin-top: 24%;
-    text-align: center;
-    color: white;
-    font-size: 24px;
+    font-weight: 100;
+    font-size: 28px;
+    color: #FAFAFA;
 }
+
+.dud{
+    color: #757575;
+}
+  
