@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.text{
+    margin: auto;
+    position: relative;
+    margin-top: 24%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
